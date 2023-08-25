@@ -1,0 +1,223 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Manrope&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap');
+
+.Manrope {
+   font-family: 'Manrope', sans-serif;
+}
+.Poppins {
+   font-family: 'Poppins', sans-serif;
+}
+
+.Roboto {
+   font-family: 'Roboto', sans-serif;
+}
+
+.Inter {
+   font-family: 'Inter', sans-serif;
+}
+.navbar-brand {
+   white-space: wrap!important;
+}
+
+/* .carousel  */
+.c-item {
+   height: 584px !important;
+}
+
+.c-img {
+   height: 586px;
+   object-fit: cover;
+}
+
+.carousel-caption {
+   left: 15% !important;
+   right: 15% !important;
+}
+
+/* moment */
+.moment h3 {
+   margin-top: 81px;
+}
+/* package section  */
+.card {
+   border: none!important;
+}
+
+.card-cc {
+   margin-top: 73px;
+}
+
+.package h2 {
+   padding-bottom: 100px!important;
+   margin-bottom: 0 !important;
+   margin-top: 100px;
+}
+
+/* clients section */
+.clients {
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+
+.clients h2 {
+   margin-bottom: 100px;
+}
+
+/* accordion */
+
+.accordion-h2 {
+   margin-top: 100px!important;
+   margin-bottom: 100px!important;
+}
+.accordion-img {
+   margin-left: 24px;
+   margin-top: 21px;
+}
+
+.accordion-item {
+   border-radius: 5px;
+   border: 1px solid #D5E5FB !important;
+   background: #FFF;
+}
+
+.accordion-button {
+   background-color: #fff!important;
+}
+
+/* footer  */
+
+footer {
+   margin-top: 150px;
+}
+
+#footer {
+   padding-top: 56px;
+}
+
+#footer p {
+   padding-top: 72px;
+   padding-bottom: 128px;
+}
+
+
+.footer-icons h6,
+.footer-icons img
+ {
+   padding-bottom: 16px;
+}
+
+.footer-icons img {
+   cursor: pointer;
+}
+
+
+
+
+
+/* mobile devices */
+@media only screen and (max-width: 688px){
+   /* header */
+   .logo {
+      max-width: 143px;
+      font-size: 14px;
+      font-weight: 700;
+   }
+
+   .navbar-brand {
+      margin-left: 0!important;
+   }
+
+   /* carousel  */
+   .c-h1 {
+      padding-left: 14px;
+      font-size: 24px !important;
+      text-align: center !important;
+      line-height: 36px !important;
+   }
+   .c-h1 br {
+      display: none;
+   }
+   .carousel-caption {
+      left: 2% !important;
+      right: 1% !important;
+   }
+
+   .carousel-caption-padding {
+      padding-bottom: 20px !important;
+   }
+
+   .c-p {
+      width: 327px;
+      font-size: 16px !important;
+      text-align: center !important;
+      padding-left: 66px;
+      margin-right: 0 !important;
+   }
+
+   .c-btn {
+      width: 168px !important;
+   }
+
+   /* moment  */
+
+   .moment h3 {
+      margin-top: 36px;
+      font-size: 19px;
+   }
+
+   .moment p {
+      font-size: 15px;
+      width: 324px;
+   }
+
+   .card-cc {
+      margin-top: 50px;
+   }
+   .package h2 {
+      padding-bottom: 0!important;
+      margin-top: 0;
+   }
+
+   .card-pk {
+      margin-top: 0!important;
+   }
+
+   .clients {
+      margin-top: 50px;
+   }
+
+   .clients h2 {
+      margin-bottom: 28px;
+   }
+
+   .accordion-h2 {
+      margin-top: 40px!important;
+      margin-bottom: 25px!important;
+      font-size: 19px!important;
+   }
+   .accordion-cc {
+      flex-direction: column-reverse;
+      margin: 0 auto ; 
+   }
+
+   .accordion-img {
+      margin-left: 0!important;
+      margin-bottom: 25px;
+      margin-top: 0;
+   }
+
+   /* footer  */
+   footer {
+      margin-top: 70px;
+   }
+   .footer-icons img {
+      width: 135px;
+   }
+   #footer {
+      padding-top: 65px;
+   }
+   #footer p {
+      padding-top: 68px;
+      padding-bottom: 43px;
+   }
+}
